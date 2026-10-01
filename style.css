@@ -16,3 +16,12 @@ footer{justify-content:flex-end}
 .studio-card h3{font-size:30px}.studio-copy p:last-child{margin-bottom:0}
 .studio-logo{display:block;border-radius:3px;overflow:hidden}.studio-logo img{display:block;width:100%;height:auto}
 @media(max-width:600px){.studio-card{grid-template-columns:1fr;padding:21px;gap:20px}.studio-logo{width:110px}}
+.studio-card .security-mark{
+  position:static;
+  transform:none;
+  width:145px;
+  height:145px;
+}
+@media(max-width:600px){
+  .studio-card .security-mark{width:110px;height:110px}
+}
